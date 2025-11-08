@@ -1,7 +1,6 @@
 # Source link https://vjudge.net/contest/761092#problem/D
-# Online Course for this problem https://www.bilibili.com/video/BV14K411R7yv/?spm_id_from=333.337.search-card.all.click&vd_source=0692697230ab6a0f88f0299cc4017a6d
+# 本题b站教程 https://www.bilibili.com/video/BV1KM411k75j?spm_id_from=333.788.videopod.sections&vd_source=0692697230ab6a0f88f0299cc4017a6d
 coins = [50,25,10,5,1]
-coins.sort()
 # 1D数组dp[i]，dp[i]代表着凑目标amount的不同方法数
 # 状态转移方程：我们有两种选择，一种是不使用当前coin来凑，一种是使用。如果用coin来凑amount，那么剩下的需要凑的amount就是amount-coin, 而这个的方法总数就是dp[amount-coin]
 # 回想dp数组的含义，这个就代表着凑出amount-coin的所有可能方法数量, 因此状态转移方程就是dp[amount]=dp[amount]+dp[amount−coin]，
