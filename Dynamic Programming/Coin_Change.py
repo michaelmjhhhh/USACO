@@ -1,4 +1,5 @@
 # Source link https://vjudge.net/contest/761092#problem/D
+# Online Course for this problem https://www.bilibili.com/video/BV14K411R7yv/?spm_id_from=333.337.search-card.all.click&vd_source=0692697230ab6a0f88f0299cc4017a6d
 coins = [50,25,10,5,1]
 coins.sort()
 # 1D数组dp[i]，dp[i]代表着凑目标amount的不同方法数
